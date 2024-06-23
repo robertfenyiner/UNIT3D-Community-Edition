@@ -22,15 +22,15 @@
     <link rel="stylesheet" href="{{ mix('css/main/login.css') }}" crossorigin="anonymous" />
 </head>
 
-<body><!-- Se agrega CSS para centrar nombre de usuario y contraseña en caja de texto -->
+<body><!-- Se agrega CSS para centrar nombre de ususario y contraseña en caja de texto -->
 <style>
     #username {
-<style>
-    #password {
         text-align: center;
     }
 </style>
 
+<style>
+    #password {
         text-align: center;
     }
 </style>
