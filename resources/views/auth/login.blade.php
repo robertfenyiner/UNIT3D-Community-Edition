@@ -22,7 +22,19 @@
     <link rel="stylesheet" href="{{ mix('css/main/login.css') }}" crossorigin="anonymous" />
 </head>
 
-<body>
+<body><!-- Se agrega CSS para centrar nombre de usuario y contraseña en caja de texto -->
+<style>
+    #username {
+<style>
+    #password {
+        text-align: center;
+    }
+</style>
+
+        text-align: center;
+    }
+</style>
+    
     <!-- Do NOT Change! For Jackett Support -->
     <div class="Jackett" style="display: none">{{ config('unit3d.powered-by') }}</div>
     <!-- Do NOT Change! For Jackett Support -->
